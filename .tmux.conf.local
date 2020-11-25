@@ -317,6 +317,8 @@ tmux_conf_copy_to_os_clipboard=false
 
 # -- user customizations -------------------------------------------------------
 # this is the place to override or undo settings
+unbind _ split-window -h
+bind / split-window -h
 
 # increase history size
 #set -g history-limit 10000
@@ -363,3 +365,4 @@ tmux_conf_copy_to_os_clipboard=false
 #
 # "$@"
 # # /!\ do not remove the previous line
+
